@@ -20,8 +20,8 @@ The dataset is constructed following the settings described in our paper and is 
 
 The dataset is divided into:
 
-* **Historical input data** (X_{historical})
-* **Future prediction data** (X_{future})
+* **Historical input data** 
+* **Future prediction data** 
 
 ---
 
@@ -54,11 +54,11 @@ All gridded data are cropped around the TC center.
 
 ---
 
-## 1. Historical Data (X_historical)
+## 1. Historical Data 
 
 Historical data describe the **current and past environmental conditions** around a TC.
 
-### 1.1 Rainfall Data (X_rain)
+### 1.1 Rainfall Data (X_r)
 
 * **Source**: MSWEP (Multi-Source Weighted-Ensemble Precipitation)
 * **Temporal resolution**: 3-hourly
@@ -75,7 +75,7 @@ Historical data describe the **current and past environmental conditions** aroun
 
 Environmental variables are collected from **ERA5** and include both surface and pressure-level data.
 
-#### (a) Surface Environment (X_SfEnv)
+#### (a) Surface Environment (X_Sl)
 
 | Variable                      | Resolution | Time     |
 | ----------------------------- | ---------- | -------- |
@@ -92,7 +92,7 @@ Environmental variables are collected from **ERA5** and include both surface and
 
 ---
 
-#### (b) Pressure-Level Environment (X_PlEnv)
+#### (b) Pressure-Level Environment (X_Pl)
 
 * **Source**: ERA5
 * **Pressure levels**: 200, 600, 850, 925 hPa
@@ -137,7 +137,7 @@ These include:
 
 ---
 
-## 2. Future Prediction Data (X_future)
+## 2. Future Prediction Data (X_nwp)
 
 Future prediction data provide **physically informed guidance** from numerical weather prediction models.
 
