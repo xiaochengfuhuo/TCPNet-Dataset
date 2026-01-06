@@ -57,6 +57,8 @@ All gridded data are cropped around the TC center.
 ## 1. Historical Data 
 
 Historical data describe the **current and past environmental conditions** around a TC.
+![ERA5](pressure_level.png)
+
 
 ### 1.1 Rainfall Data (X_r)
 
@@ -140,6 +142,7 @@ These include:
 ## 2. Future Prediction Data (X_nwp)
 
 Future prediction data provide **physically informed guidance** from numerical weather prediction models.
+![ERA5](IFS.png)
 
 * **Source**: ERA5-IFS (ensemble mean)
 * **Reason for using ERA5-IFS**:
